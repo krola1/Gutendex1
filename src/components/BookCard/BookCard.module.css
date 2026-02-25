@@ -1,0 +1,46 @@
+.bookCard {
+  background-color: var(--card);
+  border: 2px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  max-width: min-content;
+  padding: 15px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+.bookCard:hover {
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.333);
+  transform: translateY(-5px);
+}
+.bookCover {
+  height: fit-content;
+}
+a {
+  text-decoration: none;
+}
+.info {
+  padding: 10px;
+  color: var(--text-color);
+}
+.bookTitle {
+  display: -webkit-box; /* Because the title is too long on some books */
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.author {
+  margin-top: 20px;
+}
+.favoritesBtn {
+  align-self: flex-end;
+  margin-top: auto;
+
+  max-height: 20px;
+  background-color: var(--btn);
+  border: 1px solid var(--fav-btn);
+  padding-top: 3px;
+}

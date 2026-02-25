@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "OFL";
+  src: url(./assets/OFL.txt);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Colors --------------------------------------------- */
+  --color-header-light: #b8d18f;
+  --color-header-dark: #374920;
+  --color-bg-light: #faf8f1;
+  --color-bg-dark: #262626;
+  --color-text-light: #343433;
+  --color-text-dark: #faf8f1;
+  --color-border-light: #757575;
+  --color-border-dark: #313030;
+  --color-border-card-light: #e7e7e7;
+  --color-border-card-dark: #444444;
+  --color-btn-light: #f0f0f0;
+  --color-btn-dark: #626161b0;
+  --color-fav-light: #757575;
+  --color-fav-dark: #151515;
+  --color-card-light: #f6f4ec;
+  --color-card-dark: #343232;
+  --color-input-light: #ffffff;
+  --color-input-dark: #999999c3;
+
+  /* Typography ----------------------------------------- */
+  --font-family: "OFL";
+  --font-size-nav: 1.5rem;
+  --font-size-h1: 2rem;
+  --font-size-h3: 1.5rem;
+  --font-size-p: 1rem;
+  --font-size-details: 1.3rem;
+
+  /* Spacing -------------------------------------------- */
+  --spacing-sm: 0.5rem;
+  --spacing-ss: 1rem;
+  --spacing-md: 2rem;
+  --spacing-big: 3rem;
+  --spacing-l: 3.5rem;
+  --spacing-xl: 8rem;
+
+  /* Border radius -------------------------------------- */
+  --radius-sm: 10px;
+  --radius-md: 25px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body.light {
+  --header-bg: var(--color-header-light);
+  --bg: var(--color-bg-light);
+  --text-color: var(--color-text-light);
+  --border: var(--color-border-light);
+  --card: var(--color-card-light);
+  --card-border: var(--color-border-card-light);
+  --btn: var(--color-btn-light);
+  --fav-btn: var(--color-fav-light);
+  --input: var(--color-input-light);
+
+  background: var(--bg);
+  color: var(--text-color);
+  border-color: var(--border);
+  border-color: var(--card-border);
+}
+
+body.dark {
+  --header-bg: var(--color-header-dark);
+  --bg: var(--color-bg-dark);
+  --text-color: var(--color-text-dark);
+  --border: var(--color-border-dark);
+  --card: var(--color-card-dark);
+  --card-border: var(--color-border-card-dark);
+  --btn: var(--color-btn-dark);
+  --fav-btn: var(--color-fav-dark);
+  --input: var(--color-input-dark);
+
+  background: var(--bg);
+  color: var(--text-color);
+  border-color: var(--border);
+  border-color: var(--card-border);
+}

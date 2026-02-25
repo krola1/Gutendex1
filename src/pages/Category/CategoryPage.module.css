@@ -1,0 +1,14 @@
+.categoryMenu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 70px 100px;
+}
+.categoryName {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.loading {
+  margin-top: 50px;
+  margin-left: 40px;
+}

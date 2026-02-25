@@ -1,0 +1,34 @@
+.categoryToggle {
+  padding: 10px 20px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-color);
+  font-size: var(--font-size-p);
+  height: 40px;
+  font-family: "OFL";
+  background-color: var(--btn);
+}
+
+.dropdownMenu {
+  position: absolute;
+  gap: var(--spacing-l);
+
+  display: flex;
+  margin-top: 12px;
+  background-color: var(--btn);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+}
+
+.categories {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 2rem;
+}
