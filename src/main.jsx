@@ -40,7 +40,7 @@ const router = createBrowserRouter(
       ],
     },
   ],
-  { basename: "/Gutendex/" },
+  { basename: "/Gutendex1/" },
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
